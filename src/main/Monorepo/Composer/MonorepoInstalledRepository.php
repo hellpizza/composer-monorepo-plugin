@@ -105,7 +105,7 @@ class MonorepoInstalledRepository implements InstalledRepositoryInterface
         return array();
     }
 
-    public function count()
+    public function count(): int
     {
         return count($this->packages);
     }
